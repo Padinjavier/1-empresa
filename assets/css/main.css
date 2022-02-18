@@ -42,10 +42,11 @@ img{
 }
 .card-image{
 	position: relative;
+	display: flex;
 }
 .card-image::before{
 	content: '';
-	background: rgba(238, 130, 238, 0.589);
+	background: rgba(117, 62, 151, 0.5);
 	height: 100%;
 	width: 100%;
 	position: absolute;
